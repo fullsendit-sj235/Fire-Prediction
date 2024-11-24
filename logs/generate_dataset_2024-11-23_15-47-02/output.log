@@ -1,0 +1,260 @@
+2024-11-23 15:47:02.084 | INFO | __main__ | Run name: generate_dataset_2024-11-23_15-47-02 | {}
+2024-11-23 15:47:02.085 | INFO | __main__ | Debug : False | {}
+2024-11-23 15:47:02.093 | INFO | datasets.dataset_generator | Generating dataset... | {}
+2024-11-23 15:47:02.093 | INFO | datasets.dataset_generator | Resuming dataset generation... | {}
+2024-11-23 15:47:02.093 | INFO | datasets.dataset_generator | Dataset folder path: data/datasets/16f47c6b-fff0-424e-b5b5-b55ad6137cee | {}
+2024-11-23 15:47:02.093 | INFO | datasets.dataset_generator | Loading boundaries... | {}
+2024-11-23 15:47:03.123 | INFO | datasets.dataset_generator | Generating big tiles boundaries... | {}
+2024-11-23 15:47:18.757 | INFO | datasets.dataset_generator | Generated 469 big tiles boundaries! | {}
+2024-11-23 15:47:18.757 | INFO | datasets.dataset_generator | Target years ranges: [range(2010, 2011), range(2011, 2012), range(2012, 2013), range(2013, 2014), range(2014, 2015), range(2015, 2016), range(2016, 2017), range(2017, 2018), range(2018, 2019), range(2019, 2020), range(2020, 2021), range(2021, 2022), range(2022, 2023), range(2023, 2024)] | {}
+2024-11-23 15:47:18.758 | INFO | datasets.dataset_generator | Resuming input data processing... | {}
+2024-11-23 15:47:18.758 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_NDVI and year 2009! | {}
+2024-11-23 15:47:18.758 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_NDVI and year 2010! | {}
+2024-11-23 15:47:18.758 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_NDVI and year 2011! | {}
+2024-11-23 15:47:18.759 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_NDVI and year 2012! | {}
+2024-11-23 15:47:18.759 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_NDVI and year 2013! | {}
+2024-11-23 15:47:18.759 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_NDVI and year 2014! | {}
+2024-11-23 15:47:18.759 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_NDVI and year 2015! | {}
+2024-11-23 15:47:18.760 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_NDVI and year 2016! | {}
+2024-11-23 15:47:18.760 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_NDVI and year 2017! | {}
+2024-11-23 15:47:18.760 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_NDVI and year 2018! | {}
+2024-11-23 15:47:18.760 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_NDVI and year 2019! | {}
+2024-11-23 15:47:18.760 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_NDVI and year 2020! | {}
+2024-11-23 15:47:18.760 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_NDVI and year 2021! | {}
+2024-11-23 15:47:18.760 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_NDVI and year 2022! | {}
+2024-11-23 15:47:18.760 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_EVI and year 2009! | {}
+2024-11-23 15:47:18.761 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_EVI and year 2010! | {}
+2024-11-23 15:47:18.761 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_EVI and year 2011! | {}
+2024-11-23 15:47:18.761 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_EVI and year 2012! | {}
+2024-11-23 15:47:18.761 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_EVI and year 2013! | {}
+2024-11-23 15:47:18.761 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_EVI and year 2014! | {}
+2024-11-23 15:47:18.761 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_EVI and year 2015! | {}
+2024-11-23 15:47:18.761 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_EVI and year 2016! | {}
+2024-11-23 15:47:18.762 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_EVI and year 2017! | {}
+2024-11-23 15:47:18.762 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_EVI and year 2018! | {}
+2024-11-23 15:47:18.762 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_EVI and year 2019! | {}
+2024-11-23 15:47:18.762 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_EVI and year 2020! | {}
+2024-11-23 15:47:18.762 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_EVI and year 2021! | {}
+2024-11-23 15:47:18.762 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD13Q1_061__250m_16_days_EVI and year 2022! | {}
+2024-11-23 15:47:18.762 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonVegetated and year 2009! | {}
+2024-11-23 15:47:18.762 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonVegetated and year 2010! | {}
+2024-11-23 15:47:18.762 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonVegetated and year 2011! | {}
+2024-11-23 15:47:18.763 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonVegetated and year 2012! | {}
+2024-11-23 15:47:18.763 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonVegetated and year 2013! | {}
+2024-11-23 15:47:18.763 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonVegetated and year 2014! | {}
+2024-11-23 15:47:18.763 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonVegetated and year 2015! | {}
+2024-11-23 15:47:18.763 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonVegetated and year 2016! | {}
+2024-11-23 15:47:18.763 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonVegetated and year 2017! | {}
+2024-11-23 15:47:18.763 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonVegetated and year 2018! | {}
+2024-11-23 15:47:18.763 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonVegetated and year 2019! | {}
+2024-11-23 15:47:18.763 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonVegetated and year 2020! | {}
+2024-11-23 15:47:18.763 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonVegetated and year 2021! | {}
+2024-11-23 15:47:18.764 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonVegetated and year 2022! | {}
+2024-11-23 15:47:18.764 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonTree_Vegetation and year 2009! | {}
+2024-11-23 15:47:18.764 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonTree_Vegetation and year 2010! | {}
+2024-11-23 15:47:18.764 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonTree_Vegetation and year 2011! | {}
+2024-11-23 15:47:18.764 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonTree_Vegetation and year 2012! | {}
+2024-11-23 15:47:18.764 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonTree_Vegetation and year 2013! | {}
+2024-11-23 15:47:18.764 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonTree_Vegetation and year 2014! | {}
+2024-11-23 15:47:18.764 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonTree_Vegetation and year 2015! | {}
+2024-11-23 15:47:18.764 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonTree_Vegetation and year 2016! | {}
+2024-11-23 15:47:18.765 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonTree_Vegetation and year 2017! | {}
+2024-11-23 15:47:18.765 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonTree_Vegetation and year 2018! | {}
+2024-11-23 15:47:18.765 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonTree_Vegetation and year 2019! | {}
+2024-11-23 15:47:18.765 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonTree_Vegetation and year 2020! | {}
+2024-11-23 15:47:18.765 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonTree_Vegetation and year 2021! | {}
+2024-11-23 15:47:18.765 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_NonTree_Vegetation and year 2022! | {}
+2024-11-23 15:47:18.765 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_Tree_Cover and year 2009! | {}
+2024-11-23 15:47:18.765 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_Tree_Cover and year 2010! | {}
+2024-11-23 15:47:18.765 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_Tree_Cover and year 2011! | {}
+2024-11-23 15:47:18.765 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_Tree_Cover and year 2012! | {}
+2024-11-23 15:47:18.766 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_Tree_Cover and year 2013! | {}
+2024-11-23 15:47:18.766 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_Tree_Cover and year 2014! | {}
+2024-11-23 15:47:18.766 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_Tree_Cover and year 2015! | {}
+2024-11-23 15:47:18.766 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_Tree_Cover and year 2016! | {}
+2024-11-23 15:47:18.766 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_Tree_Cover and year 2017! | {}
+2024-11-23 15:47:18.766 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_Tree_Cover and year 2018! | {}
+2024-11-23 15:47:18.766 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_Tree_Cover and year 2019! | {}
+2024-11-23 15:47:18.767 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_Tree_Cover and year 2020! | {}
+2024-11-23 15:47:18.767 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_Tree_Cover and year 2021! | {}
+2024-11-23 15:47:18.767 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD44B_061_Percent_Tree_Cover and year 2022! | {}
+2024-11-23 15:47:18.767 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD15A2H_061_Lai_500m and year 2009! | {}
+2024-11-23 15:47:18.767 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD15A2H_061_Lai_500m and year 2010! | {}
+2024-11-23 15:47:18.767 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD15A2H_061_Lai_500m and year 2011! | {}
+2024-11-23 15:47:18.767 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD15A2H_061_Lai_500m and year 2012! | {}
+2024-11-23 15:47:18.767 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD15A2H_061_Lai_500m and year 2013! | {}
+2024-11-23 15:47:18.767 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD15A2H_061_Lai_500m and year 2014! | {}
+2024-11-23 15:47:18.768 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD15A2H_061_Lai_500m and year 2015! | {}
+2024-11-23 15:47:18.768 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD15A2H_061_Lai_500m and year 2016! | {}
+2024-11-23 15:47:18.768 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD15A2H_061_Lai_500m and year 2017! | {}
+2024-11-23 15:47:18.768 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD15A2H_061_Lai_500m and year 2018! | {}
+2024-11-23 15:47:18.768 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD15A2H_061_Lai_500m and year 2019! | {}
+2024-11-23 15:47:18.768 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD15A2H_061_Lai_500m and year 2020! | {}
+2024-11-23 15:47:18.769 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD15A2H_061_Lai_500m and year 2021! | {}
+2024-11-23 15:47:18.769 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD15A2H_061_Lai_500m and year 2022! | {}
+2024-11-23 15:47:18.769 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD14A2_061_FireMask and year 2009! | {}
+2024-11-23 15:47:18.769 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD14A2_061_FireMask and year 2010! | {}
+2024-11-23 15:47:18.770 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD14A2_061_FireMask and year 2011! | {}
+2024-11-23 15:47:18.770 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD14A2_061_FireMask and year 2012! | {}
+2024-11-23 15:47:18.770 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD14A2_061_FireMask and year 2013! | {}
+2024-11-23 15:47:18.771 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD14A2_061_FireMask and year 2014! | {}
+2024-11-23 15:47:18.771 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD14A2_061_FireMask and year 2015! | {}
+2024-11-23 15:47:18.771 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD14A2_061_FireMask and year 2016! | {}
+2024-11-23 15:47:18.771 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD14A2_061_FireMask and year 2017! | {}
+2024-11-23 15:47:18.771 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD14A2_061_FireMask and year 2018! | {}
+2024-11-23 15:47:18.771 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD14A2_061_FireMask and year 2019! | {}
+2024-11-23 15:47:18.771 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD14A2_061_FireMask and year 2020! | {}
+2024-11-23 15:47:18.772 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD14A2_061_FireMask and year 2021! | {}
+2024-11-23 15:47:18.772 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data MOD14A2_061_FireMask and year 2022! | {}
+2024-11-23 15:47:18.772 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_u_component_of_wind and year 2010! | {}
+2024-11-23 15:47:18.772 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_u_component_of_wind and year 2011! | {}
+2024-11-23 15:47:18.772 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_u_component_of_wind and year 2012! | {}
+2024-11-23 15:47:18.772 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_u_component_of_wind and year 2013! | {}
+2024-11-23 15:47:18.773 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_u_component_of_wind and year 2014! | {}
+2024-11-23 15:47:18.773 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_u_component_of_wind and year 2015! | {}
+2024-11-23 15:47:18.773 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_u_component_of_wind and year 2016! | {}
+2024-11-23 15:47:18.773 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_u_component_of_wind and year 2017! | {}
+2024-11-23 15:47:18.774 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_u_component_of_wind and year 2018! | {}
+2024-11-23 15:47:18.774 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_u_component_of_wind and year 2019! | {}
+2024-11-23 15:47:18.774 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_u_component_of_wind and year 2020! | {}
+2024-11-23 15:47:18.775 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_u_component_of_wind and year 2021! | {}
+2024-11-23 15:47:18.775 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_u_component_of_wind and year 2022! | {}
+2024-11-23 15:47:18.775 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_u_component_of_wind and year 2023! | {}
+2024-11-23 15:47:18.775 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_v_component_of_wind and year 2010! | {}
+2024-11-23 15:47:18.775 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_v_component_of_wind and year 2011! | {}
+2024-11-23 15:47:18.775 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_v_component_of_wind and year 2012! | {}
+2024-11-23 15:47:18.775 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_v_component_of_wind and year 2013! | {}
+2024-11-23 15:47:18.776 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_v_component_of_wind and year 2014! | {}
+2024-11-23 15:47:18.776 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_v_component_of_wind and year 2015! | {}
+2024-11-23 15:47:18.776 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_v_component_of_wind and year 2016! | {}
+2024-11-23 15:47:18.776 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_v_component_of_wind and year 2017! | {}
+2024-11-23 15:47:18.776 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_v_component_of_wind and year 2018! | {}
+2024-11-23 15:47:18.776 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_v_component_of_wind and year 2019! | {}
+2024-11-23 15:47:18.776 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_v_component_of_wind and year 2020! | {}
+2024-11-23 15:47:18.777 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_v_component_of_wind and year 2021! | {}
+2024-11-23 15:47:18.777 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_v_component_of_wind and year 2022! | {}
+2024-11-23 15:47:18.777 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_100m_v_component_of_wind and year 2023! | {}
+2024-11-23 15:47:18.777 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_2m_temperature and year 2010! | {}
+2024-11-23 15:47:18.777 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_2m_temperature and year 2011! | {}
+2024-11-23 15:47:18.777 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_2m_temperature and year 2012! | {}
+2024-11-23 15:47:18.777 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_2m_temperature and year 2013! | {}
+2024-11-23 15:47:18.777 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_2m_temperature and year 2014! | {}
+2024-11-23 15:47:18.778 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_2m_temperature and year 2015! | {}
+2024-11-23 15:47:18.778 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_2m_temperature and year 2016! | {}
+2024-11-23 15:47:18.778 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_2m_temperature and year 2017! | {}
+2024-11-23 15:47:18.778 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_2m_temperature and year 2018! | {}
+2024-11-23 15:47:18.778 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_2m_temperature and year 2019! | {}
+2024-11-23 15:47:18.778 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_2m_temperature and year 2020! | {}
+2024-11-23 15:47:18.779 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_2m_temperature and year 2021! | {}
+2024-11-23 15:47:18.779 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_2m_temperature and year 2022! | {}
+2024-11-23 15:47:18.779 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_2m_temperature and year 2023! | {}
+2024-11-23 15:47:18.779 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_potential_evaporation and year 2010! | {}
+2024-11-23 15:47:18.780 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_potential_evaporation and year 2011! | {}
+2024-11-23 15:47:18.780 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_potential_evaporation and year 2012! | {}
+2024-11-23 15:47:18.780 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_potential_evaporation and year 2013! | {}
+2024-11-23 15:47:18.780 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_potential_evaporation and year 2014! | {}
+2024-11-23 15:47:18.780 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_potential_evaporation and year 2015! | {}
+2024-11-23 15:47:18.780 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_potential_evaporation and year 2016! | {}
+2024-11-23 15:47:18.780 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_potential_evaporation and year 2017! | {}
+2024-11-23 15:47:18.781 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_potential_evaporation and year 2018! | {}
+2024-11-23 15:47:18.781 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_potential_evaporation and year 2019! | {}
+2024-11-23 15:47:18.781 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_potential_evaporation and year 2020! | {}
+2024-11-23 15:47:18.781 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_potential_evaporation and year 2021! | {}
+2024-11-23 15:47:18.781 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_potential_evaporation and year 2022! | {}
+2024-11-23 15:47:18.782 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_potential_evaporation and year 2023! | {}
+2024-11-23 15:47:18.782 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_net_solar_radiation and year 2010! | {}
+2024-11-23 15:47:18.782 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_net_solar_radiation and year 2011! | {}
+2024-11-23 15:47:18.782 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_net_solar_radiation and year 2012! | {}
+2024-11-23 15:47:18.782 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_net_solar_radiation and year 2013! | {}
+2024-11-23 15:47:18.782 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_net_solar_radiation and year 2014! | {}
+2024-11-23 15:47:18.783 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_net_solar_radiation and year 2015! | {}
+2024-11-23 15:47:18.783 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_net_solar_radiation and year 2016! | {}
+2024-11-23 15:47:18.783 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_net_solar_radiation and year 2017! | {}
+2024-11-23 15:47:18.783 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_net_solar_radiation and year 2018! | {}
+2024-11-23 15:47:18.783 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_net_solar_radiation and year 2019! | {}
+2024-11-23 15:47:18.784 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_net_solar_radiation and year 2020! | {}
+2024-11-23 15:47:18.784 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_net_solar_radiation and year 2021! | {}
+2024-11-23 15:47:18.784 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_net_solar_radiation and year 2022! | {}
+2024-11-23 15:47:18.784 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_net_solar_radiation and year 2023! | {}
+2024-11-23 15:47:18.784 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_runoff and year 2010! | {}
+2024-11-23 15:47:18.784 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_runoff and year 2011! | {}
+2024-11-23 15:47:18.785 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_runoff and year 2012! | {}
+2024-11-23 15:47:18.785 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_runoff and year 2013! | {}
+2024-11-23 15:47:18.785 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_runoff and year 2014! | {}
+2024-11-23 15:47:18.785 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_runoff and year 2015! | {}
+2024-11-23 15:47:18.785 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_runoff and year 2016! | {}
+2024-11-23 15:47:18.785 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_runoff and year 2017! | {}
+2024-11-23 15:47:18.786 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_runoff and year 2018! | {}
+2024-11-23 15:47:18.786 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_runoff and year 2019! | {}
+2024-11-23 15:47:18.786 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_runoff and year 2020! | {}
+2024-11-23 15:47:18.786 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_runoff and year 2021! | {}
+2024-11-23 15:47:18.786 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_runoff and year 2022! | {}
+2024-11-23 15:47:18.786 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_surface_runoff and year 2023! | {}
+2024-11-23 15:47:18.786 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_total_precipitation and year 2010! | {}
+2024-11-23 15:47:18.786 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_total_precipitation and year 2011! | {}
+2024-11-23 15:47:18.787 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_total_precipitation and year 2012! | {}
+2024-11-23 15:47:18.787 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_total_precipitation and year 2013! | {}
+2024-11-23 15:47:18.787 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_total_precipitation and year 2014! | {}
+2024-11-23 15:47:18.787 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_total_precipitation and year 2015! | {}
+2024-11-23 15:47:18.787 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_total_precipitation and year 2016! | {}
+2024-11-23 15:47:18.787 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_total_precipitation and year 2017! | {}
+2024-11-23 15:47:18.788 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_total_precipitation and year 2018! | {}
+2024-11-23 15:47:18.788 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_total_precipitation and year 2019! | {}
+2024-11-23 15:47:18.788 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_total_precipitation and year 2020! | {}
+2024-11-23 15:47:18.788 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_total_precipitation and year 2021! | {}
+2024-11-23 15:47:18.788 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_total_precipitation and year 2022! | {}
+2024-11-23 15:47:18.789 | INFO | datasets.dataset_generator | Found 0 tiles for dynamic input data era5_reanalysis_total_precipitation and year 2023! | {}
+2024-11-23 15:47:18.789 | INFO | datasets.dataset_generator | Found 0 tiles for static input data SRTMGL3_NC_003_SRTMGL3_DEM! | {}
+2024-11-23 15:47:18.789 | INFO | datasets.dataset_generator | Found 0 tiles for static input data GOV_CAN_WATER_BODIES! | {}
+2024-11-23 15:47:18.789 | INFO | datasets.dataset_generator | Loaded data index from already processed data! | {}
+2024-11-23 15:47:18.789 | INFO | datasets.dataset_generator | Stacking data for target years range range(2010, 2011)... | {}
+2024-11-23 15:47:18.791 | INFO | datasets.dataset_generator | Stacking data for target years range range(2011, 2012)... | {}
+2024-11-23 15:47:18.791 | INFO | datasets.dataset_generator | Stacking data for target years range range(2012, 2013)... | {}
+2024-11-23 15:47:18.791 | INFO | datasets.dataset_generator | Stacking data for target years range range(2013, 2014)... | {}
+2024-11-23 15:47:18.792 | INFO | datasets.dataset_generator | Stacking data for target years range range(2014, 2015)... | {}
+2024-11-23 15:47:18.792 | INFO | datasets.dataset_generator | Stacking data for target years range range(2015, 2016)... | {}
+2024-11-23 15:47:18.792 | INFO | datasets.dataset_generator | Stacking data for target years range range(2016, 2017)... | {}
+2024-11-23 15:47:18.792 | INFO | datasets.dataset_generator | Stacking data for target years range range(2017, 2018)... | {}
+2024-11-23 15:47:18.793 | INFO | datasets.dataset_generator | Stacking data for target years range range(2018, 2019)... | {}
+2024-11-23 15:47:18.793 | INFO | datasets.dataset_generator | Stacking data for target years range range(2019, 2020)... | {}
+2024-11-23 15:47:18.793 | INFO | datasets.dataset_generator | Stacking data for target years range range(2020, 2021)... | {}
+2024-11-23 15:47:18.794 | INFO | datasets.dataset_generator | Stacking data for target years range range(2021, 2022)... | {}
+2024-11-23 15:47:18.794 | INFO | datasets.dataset_generator | Stacking data for target years range range(2022, 2023)... | {}
+2024-11-23 15:47:18.794 | INFO | datasets.dataset_generator | Stacking data for target years range range(2023, 2024)... | {}
+2024-11-23 15:47:18.794 | INFO | datasets.dataset_generator | Generating targets... | {}
+2024-11-23 15:47:18.795 | INFO | targets.fire_occurrence_target | Downloading fire polygons for all 14 years... | {}
+2024-11-23 15:47:29.350 | INFO | targets.fire_occurrence_target | Computing output bounds based on boundary... | {}
+2024-11-23 15:47:29.354 | INFO | targets.fire_occurrence_target | Final raster will have dimensions (10893 x 21407) pixels | {}
+2024-11-23 15:47:29.354 | INFO | targets.fire_occurrence_target | Rasterizing fire polgyons for all 14 years... | {}
+2024-11-23 15:48:18.305 | INFO | targets.fire_occurrence_target | Combining rasters for all 14 years ranges... | {}
+2024-11-23 15:48:25.039 | INFO | targets.fire_occurrence_target | Target generation done! | {}
+2024-11-23 15:48:25.040 | INFO | datasets.dataset_generator | Resizing, reprojecting and clipping raster... | {'years_range': '(2010, 2010)'}
+2024-11-23 15:49:09.435 | INFO | datasets.dataset_generator | Creating tiles... | {'years_range': '(2010, 2010)'}
+2024-11-23 15:49:28.331 | INFO | datasets.dataset_generator | Resizing, reprojecting and clipping raster... | {'years_range': '(2011, 2011)'}
+2024-11-23 15:50:11.973 | INFO | datasets.dataset_generator | Creating tiles... | {'years_range': '(2011, 2011)'}
+2024-11-23 15:50:30.984 | INFO | datasets.dataset_generator | Resizing, reprojecting and clipping raster... | {'years_range': '(2012, 2012)'}
+2024-11-23 15:51:14.638 | INFO | datasets.dataset_generator | Creating tiles... | {'years_range': '(2012, 2012)'}
+2024-11-23 15:51:33.636 | INFO | datasets.dataset_generator | Resizing, reprojecting and clipping raster... | {'years_range': '(2013, 2013)'}
+2024-11-23 15:52:17.251 | INFO | datasets.dataset_generator | Creating tiles... | {'years_range': '(2013, 2013)'}
+2024-11-23 15:52:36.328 | INFO | datasets.dataset_generator | Resizing, reprojecting and clipping raster... | {'years_range': '(2014, 2014)'}
+2024-11-23 15:53:20.036 | INFO | datasets.dataset_generator | Creating tiles... | {'years_range': '(2014, 2014)'}
+2024-11-23 15:53:38.842 | INFO | datasets.dataset_generator | Resizing, reprojecting and clipping raster... | {'years_range': '(2015, 2015)'}
+2024-11-23 15:54:23.188 | INFO | datasets.dataset_generator | Creating tiles... | {'years_range': '(2015, 2015)'}
+2024-11-23 15:54:42.462 | INFO | datasets.dataset_generator | Resizing, reprojecting and clipping raster... | {'years_range': '(2016, 2016)'}
+2024-11-23 15:55:27.075 | INFO | datasets.dataset_generator | Creating tiles... | {'years_range': '(2016, 2016)'}
+2024-11-23 15:55:46.532 | INFO | datasets.dataset_generator | Resizing, reprojecting and clipping raster... | {'years_range': '(2017, 2017)'}
+2024-11-23 15:56:31.246 | INFO | datasets.dataset_generator | Creating tiles... | {'years_range': '(2017, 2017)'}
+2024-11-23 15:56:50.544 | INFO | datasets.dataset_generator | Resizing, reprojecting and clipping raster... | {'years_range': '(2018, 2018)'}
+2024-11-23 15:57:35.799 | INFO | datasets.dataset_generator | Creating tiles... | {'years_range': '(2018, 2018)'}
+2024-11-23 15:57:54.820 | INFO | datasets.dataset_generator | Resizing, reprojecting and clipping raster... | {'years_range': '(2019, 2019)'}
+2024-11-23 15:58:38.744 | INFO | datasets.dataset_generator | Creating tiles... | {'years_range': '(2019, 2019)'}
+2024-11-23 15:58:57.538 | INFO | datasets.dataset_generator | Resizing, reprojecting and clipping raster... | {'years_range': '(2020, 2020)'}
+2024-11-23 15:59:41.128 | INFO | datasets.dataset_generator | Creating tiles... | {'years_range': '(2020, 2020)'}
+2024-11-23 15:59:59.934 | INFO | datasets.dataset_generator | Resizing, reprojecting and clipping raster... | {'years_range': '(2021, 2021)'}
+2024-11-23 16:00:44.046 | INFO | datasets.dataset_generator | Creating tiles... | {'years_range': '(2021, 2021)'}
+2024-11-23 16:01:02.870 | INFO | datasets.dataset_generator | Resizing, reprojecting and clipping raster... | {'years_range': '(2022, 2022)'}
+2024-11-23 16:01:46.565 | INFO | datasets.dataset_generator | Creating tiles... | {'years_range': '(2022, 2022)'}
+2024-11-23 16:02:05.365 | INFO | datasets.dataset_generator | Resizing, reprojecting and clipping raster... | {'years_range': '(2023, 2023)'}
+2024-11-23 16:02:49.102 | INFO | datasets.dataset_generator | Creating tiles... | {'years_range': '(2023, 2023)'}
+2024-11-23 16:03:07.915 | INFO | datasets.dataset_generator | Generating targets DONE ! | {}
+2024-11-23 16:03:07.916 | SUCCESS | datasets.dataset_generator | Dataset generation DONE ! | {}

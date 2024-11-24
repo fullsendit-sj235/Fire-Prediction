@@ -1,0 +1,15 @@
+2024-11-23 16:34:23.076 | INFO | __main__ | Run name: holdout_split_2010_2023_2024-11-23_16-34-23 | {}
+2024-11-23 16:34:23.076 | INFO | __main__ | Debug : False | {}
+2024-11-23 16:34:23.077 | INFO | __main__ | Train target years ranges: [range(2010, 2011), range(2011, 2012), range(2012, 2013), range(2013, 2014), range(2014, 2015), range(2015, 2016), range(2016, 2017), range(2017, 2018), range(2018, 2019), range(2019, 2020), range(2020, 2021), range(2021, 2022), range(2022, 2023)] | {}
+2024-11-23 16:34:23.077 | INFO | __main__ | Device: cpu | {}
+2024-11-23 16:34:23.077 | INFO | __main__ | Seed: 42 | {}
+2024-11-23 16:34:23.088 | INFO | datasets.wildfire_data_module | Splitting data... | {}
+2024-11-23 16:34:23.088 | INFO | datasets.wildfire_data_module | Train input data folders: 0 | {}
+2024-11-23 16:34:23.088 | INFO | datasets.wildfire_data_module | Train target folders: 0 | {}
+2024-11-23 16:34:23.088 | INFO | datasets.wildfire_data_module | Test input data folders: 2 | {}
+2024-11-23 16:34:23.088 | INFO | datasets.wildfire_data_module | Test target folders: 2 | {}
+2024-11-23 16:34:23.088 | INFO | datasets.wildfire_data_module | Train input files: 0 | {}
+2024-11-23 16:34:23.089 | INFO | datasets.wildfire_data_module | Train target files: 0 | {}
+2024-11-23 16:34:23.089 | INFO | datasets.wildfire_data_module | Test input files: 0 | {}
+2024-11-23 16:34:23.089 | INFO | datasets.wildfire_data_module | Test target files: 0 | {}
+2024-11-23 16:34:23.089 | INFO | datasets.wildfire_data_module | Splitting train dataset into train and validation datasets... | {}
