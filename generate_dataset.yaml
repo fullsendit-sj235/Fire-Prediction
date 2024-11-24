@@ -1,0 +1,135 @@
+min_percent_pixels_with_valid_data: 0.50  # Keeps tiles that have at least 50% valid pixels
+input_data_min_fraction_of_bands_with_valid_data: 0.5  # Treats pixels with less than 50% valid bands as invalid
+max_no_fire_proportion: 0.0  # Excludes any tile with no fire pixels in the target
+min_nb_pixels_with_fire_per_tile: 256  # Ensures at least 256 fire pixels per tile
+sources:
+  - NDVI
+  - EVI
+  - LAI
+
+debug: false
+resume: true
+resume_folder_path: "data/datasets/16f47c6b-fff0-424e-b5b5-b55ad6137cee"
+run:
+  name: "generate_dataset_${now:%Y-%m-%d_%H-%M-%S}"
+periods:
+  target_year_start_inclusive: 2010
+  target_year_end_inclusive: 2023
+  month_start_inclusive: 5
+  month_end_inclusive: 10
+  target_period_length_in_years: 1
+  input_data_affected_by_fires_period_length_in_years: 1
+boundaries:
+  output_path: "data/canada_boundary/"
+  provinces: ["NL", "PE", "NS", "NB", "QC", "ON", "MB", "SK", "AB", "BC"]
+resolution:
+  pixel_size_in_meters: 250
+  tile_size_in_pixels: 512
+  resample_algorithm_continuous: "bilinear"
+  resample_algorithm_categorical: "near"
+projections:
+  source_srid: 4326
+  target_srid: 3978
+paths:
+  input_folder_path: "data/download/"
+  output_folder_path: "data/datasets/"
+max_io_concurrency: 8
+max_cpu_concurrency: 8
+input_data_new_no_data_value: -32768
+target_new_no_data_value: 127
+cleanup_tmp_folder_on_success: false
+input_data:
+    dynamic:
+      MOD13Q1_061__250m_16_days_NDVI:
+        netcdf_layer: "_250m_16_days_NDVI"
+        aggregation_strategy: "average"
+        data_type: "continuous"
+        fill_values: [-3000]
+        is_affected_by_fires: true
+      MOD13Q1_061__250m_16_days_EVI:
+        netcdf_layer: "_250m_16_days_EVI"
+        aggregation_strategy: "average"
+        data_type: "continuous"
+        fill_values: [-3000]
+        is_affected_by_fires: true
+      MOD44B_061_Percent_NonVegetated:
+        netcdf_layer: "Percent_NonVegetated"
+        aggregation_strategy: "average"
+        data_type: "continuous"
+        fill_values: [200, 253]
+        is_affected_by_fires: true
+      MOD44B_061_Percent_NonTree_Vegetation:
+        netcdf_layer: "Percent_NonTree_Vegetation"
+        aggregation_strategy: "average"
+        data_type: "continuous"
+        fill_values: [200, 253]
+        is_affected_by_fires: true
+      MOD44B_061_Percent_Tree_Cover:
+        netcdf_layer: "Percent_Tree_Cover"
+        aggregation_strategy: "average"
+        data_type: "continuous"
+        fill_values: [200, 253]
+        is_affected_by_fires: true
+      MOD15A2H_061_Lai_500m:
+        netcdf_layer: "Lai_500m"
+        aggregation_strategy: "average"
+        data_type: "continuous"
+        fill_values: [249, 250, 251, 252, 253, 254, 255]
+        is_affected_by_fires: true
+      MOD14A2_061_FireMask:
+        netcdf_layer: "FireMask"
+        aggregation_strategy: "max"
+        data_type: "categorical"
+        fill_values: [0, 1, 2]
+        is_affected_by_fires: true
+      era5_reanalysis_100m_u_component_of_wind:
+        netcdf_layer: ""
+        aggregation_strategy: "average"
+        data_type: "continuous"
+        fill_values: [-32767]
+        is_affected_by_fires: false
+      era5_reanalysis_100m_v_component_of_wind:
+        netcdf_layer: ""
+        aggregation_strategy: "average"
+        data_type: "continuous"
+        fill_values: [-32767]
+        is_affected_by_fires: false
+      era5_reanalysis_2m_temperature:
+        netcdf_layer: ""
+        aggregation_strategy: "average"
+        data_type: "continuous"
+        fill_values: [-32767]
+        is_affected_by_fires: false
+      era5_reanalysis_potential_evaporation:
+        netcdf_layer: ""
+        aggregation_strategy: "average"
+        data_type: "continuous"
+        fill_values: [-32767]
+        is_affected_by_fires: false
+      era5_reanalysis_surface_net_solar_radiation:
+        netcdf_layer: ""
+        aggregation_strategy: "average"
+        data_type: "continuous"
+        fill_values: [-32767]
+        is_affected_by_fires: false
+      era5_reanalysis_surface_runoff:
+        netcdf_layer: ""
+        aggregation_strategy: "average"
+        data_type: "continuous"
+        fill_values: [-32767]
+        is_affected_by_fires: false
+      era5_reanalysis_total_precipitation:
+        netcdf_layer: ""
+        aggregation_strategy: "average"
+        data_type: "continuous"
+        fill_values: [-32767]
+        is_affected_by_fires: false
+    static:
+      SRTMGL3_NC_003_SRTMGL3_DEM:
+        netcdf_layer: ""
+        data_type: "continuous"
+        fill_values: [-32768]
+      GOV_CAN_WATER_BODIES:
+        netcdf_layer: ""
+        data_type: "categorical"
+        fill_values: [-32768]

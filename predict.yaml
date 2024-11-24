@@ -1,0 +1,30 @@
+debug: false
+run:
+  name: "predict_unet_test_2023_${now:%Y-%m-%d_%H-%M-%S}"
+
+# Model configuration
+model:
+  trained_model_path: "data/trainings/train_unet_2024-09-05_19-12-03/models/best_model.pth"  # Path to the trained model file
+  number_of_input_channels: 16
+  number_of_classes: 1
+  activation_fn_name: "relu"
+  num_encoder_decoder_blocks: 4
+  use_batchnorm: true
+
+# Output configuration
+output_path: "data/predictions_outputs/"  # Path where predictions will be saved
+
+# Data configuration
+data:
+  provinces: ["NL", "PE", "NS", "NB", "QC", "ON", "MB", "SK", "AB", "BC"]
+  target_srid: 3978
+  split_info_file_path: 'data/splits/data_split_info.json'  # Path to data split info file
+  input_data_folder_path: '/Users/sakshamj/Desktop/fire/WildfirePrediction/data/predict/test/2023/'  # Path to input data for prediction
+  input_data_no_data_value: -32768.0  # NoData value for input data
+  input_data_new_no_data_value: 0.0  # Adjust if necessary
+  data_loading_num_workers: 4  # Adjust based on your system’s resources
+  input_data_indexes_to_remove: []  # Optional, remove specific indexes if needed
+
+# Prediction configuration
+predict:
+  batch_size: 64  # Adjust batch size based on your system's resources
